@@ -12,6 +12,12 @@ nopen_demo_h5工程的相关运行环境
 * 本工程的文件
 
 ### 使用说明
+网络环境配置：
+* 请保证自己拥有固定的公网ip
+* 将所有用到的公网ip维护到艺龙的ip白名单中，添加ip白名单可以在http://open.elong.com中进行。
+* 测试环境ip维护在open站点的开发文档-国内酒店-常用工具中。
+* 正式环境ip维护在open站点个人中心-合作业务中。
+
 java环境搭建（linux为例）：
 * 解压缩下载的jdk以及tomcat压缩包，解压命令tar -xzvf 文件名。
 * 修改jdk下的jre/lib/security/java.security，将其中的securerandom.source=file:/dev/urandom
