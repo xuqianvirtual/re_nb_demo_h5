@@ -32,7 +32,7 @@ CREATE TABLE `h5`.`self_order` (
   `departure_date` DATETIME NOT NULL COMMENT '离店日期',
   `total_price` DOUBLE NOT NULL COMMENT '订单总价',
   `currency_code` VARCHAR(21) NOT NULL COMMENT '订单总价的货币类型',
-  `hotel_phone` VARCHAR(25) NOT NULL COMMENT '酒店电话',
+  `hotel_phone` VARCHAR(60) NOT NULL COMMENT '酒店电话',
   `contact_name` VARCHAR(20) NOT NULL COMMENT '联系人姓名',
   `contact_phone` VARCHAR(45) NOT NULL COMMENT '联系人电话',
   `room_num` INT NOT NULL COMMENT '预订房间数量',
